@@ -1,0 +1,54 @@
+nav {
+    background-color: black;
+    padding: 10px 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    padding-left: 360px;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 40px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: orangered;
+  }
+
+  
+.btn {
+    background-color: orangered;
+    height: 35px;
+    width: 100px;
+    font-size: 0.96rem;
+    padding-top: 2px ;
+    border: none;
+    border-radius: 7%;
+    margin-left: 200px;
+}
+
+.blogclass {
+  color: white;
+  float: left;
+  font-size: 25px;
+  padding-left: 45px;
+}
+
+.togglebtn {
+  color: white;
+  background-color: black;
+  border: none;
+  float: right;
+  padding-left: 150px;
+}

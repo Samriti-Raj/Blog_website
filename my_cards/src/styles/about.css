@@ -1,0 +1,117 @@
+.about-sec {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    color: rgb(245,245,245);
+}
+
+.about-sec h1 {
+    padding-left: 660px;
+    padding-top: 130px;
+}
+
+.about-sec2 {
+    height: 75vh;
+    width: 50%;
+}
+
+.image-sec {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.about-sec3 {
+    width: 50%;
+}
+
+.about-sec3 h3 {
+    text-align: center;
+    padding-top: 70px;
+    color: orangered;
+    font-size: 40px;
+}
+
+.about-sec3 h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.about-sec3 p {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.about-sec2 {
+    background-image: url('../assets/about_img.jpg');
+    background-size:cover;
+    height: 500px;
+    width: 45%;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.reviews {
+    display:grid;
+    grid-template-columns:repeat(3,0.23fr);
+    justify-content: left;
+    transition: all 0.3s ease;
+    padding-left: 80px;
+    padding-bottom: 40px;
+    background-color: #f8a145;
+}
+
+.review-sec {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: 27px;
+    border-radius:15px;
+    margin-top: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.review {
+   
+    margin-bottom: 15px;
+    border-radius: 50%;
+    width: 40%;
+    height: 20vh;
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color: #f8a145;
+}
+.review-sec:hover {
+    transform: scale(1.12);
+}
+.review-sec p {
+    padding-left: 20px;
+}
+.review-sec h4 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cls-1 {
+    background-image: url('../assets/p1.jpg');
+    background-size: cover;
+    background-position: center;
+ 
+}
+.cls-2 {
+    background-image: url('../assets/p2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.cls-3 {
+    background-image: url('../assets/p3.jpg');
+    background-size: cover;
+    background-position: center;
+}
