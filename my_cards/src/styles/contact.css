@@ -97,7 +97,7 @@ textarea{
 	min-height: 150px;
 }
 
-.btn1{
+.btn2{
 	width: 100%;
 	padding: 0.5rem 1rem;
 	background-color: orangered;
@@ -109,7 +109,7 @@ textarea{
 	transition: .3s;
 }
 
-.btn1:hover{
+.btn2:hover{
     background-color: orangered;
 }
 

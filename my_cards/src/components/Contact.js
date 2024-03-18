@@ -2,7 +2,7 @@
 import React from 'react'
 import Navbar1 from './Navbar1'
 import '../styles/contact.css'
-import '../styles/togglemode.css';
+
 
 
 
@@ -21,7 +21,7 @@ const Contact = () => {
             <input type="text" className='field' placeholder='Your Email'/>
             <input type="text" className='field' placeholder='Your Phone' />
             <textarea className='field' placeholder='Message'></textarea>
-            <button class="btn1">Send</button>
+            <button class="btn2">Send</button>
           </div>
         </div>
       </div>

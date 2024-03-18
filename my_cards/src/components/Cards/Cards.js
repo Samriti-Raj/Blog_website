@@ -29,11 +29,11 @@ function Cards() {
         <div className="secondsec">
           <div className="card">
             <div className="card-image img-1"></div>
-            <h4>
+            <h6>
               Scuba Diver Life is more than just a virtual travel guide—it's
               also a treasure trove of knowledge and expertise for divers of all
               levels.
-            </h4>
+            </h6>
             <p>
               <FaUser /> Darrell Etherington <br />
               published: February 2,2024
@@ -41,10 +41,10 @@ function Cards() {
           </div>
           <div className="card">
             <div className="card-image img-2"></div>
-            <h4>
+            <h6>
               As inhabitants of wetlands, ducks are sensitive to changes in
               water quality, habitat availability, and climate patterns.{" "}
-            </h4>
+            </h6>
             <p>
               <FaUser />
               Mathew <br />
@@ -53,11 +53,11 @@ function Cards() {
           </div>
           <div className="card">
             <div className="card-image img-3"></div>
-            <h4>
+            <h6>
               There has been a growing recognition of the importance of
               reconnecting with nature for the health and well-being of
               individuals.
-            </h4>
+            </h6>
             <p>
               <FaUser />
               Maxwell Johns <br />
@@ -66,10 +66,10 @@ function Cards() {
           </div>
           <div className="card">
             <div className="card-image img-4"></div>
-            <h4>
+            <h6>
               A primary driver behind the surge in demand for green real estate
               is the increased environmental awareness among homebuyers.{" "}
-            </h4>
+            </h6>
             <p>
               <FaUser />
               Elena James <br />
@@ -78,10 +78,10 @@ function Cards() {
           </div>
           <div className="card">
             <div className="card-image img-5"></div>
-            <h4>
+            <h6>
               Railways worldwide are embracing digital twin technology, creating
               a virtual representation of their assets, such as tracks, trains.
-            </h4>
+            </h6>
             <p>
               <FaUser />
               Anna Peterson <br />
@@ -90,11 +90,11 @@ function Cards() {
           </div>
           <div className="card">
             <div className="card-image img-6"></div>
-            <h4>
+            <h6>
               Sunflowers offer many ecological and economic benefits to
               commercial agriculture because they demand few inputs, such as
               water or nitrogen.
-            </h4>
+            </h6>
             <p>
               <FaUser />
               Glen Mathews <br />
@@ -103,11 +103,11 @@ function Cards() {
           </div>
           <div className="card">
             <div className="card-image img-7"></div>
-            <h4>
+            <h6>
               Coding involves more use of the left or rational side of your
               brain, which is used for applying logic, linear thinking and
               sequencing in most situations.
-            </h4>
+            </h6>
             <p>
               <FaUser />
               Selena <br />
@@ -116,11 +116,11 @@ function Cards() {
           </div>
           <div className="card">
             <div className="card-image img-8"></div>
-            <h4>
+            <h6>
               Social Media has become a playground for the ultramodern
               generation. They spend much of their time watching videos and
               making online connections.
-            </h4>
+            </h6>
             <p>
               <FaUser />
               William Hawkins <br />
@@ -129,11 +129,11 @@ function Cards() {
           </div>
           <div className="card">
             <div className="card-image img-9"></div>
-            <h4>
+            <h6>
               The future of WFH looks promising, with many companies planning to
               adopt hybrid model and office work. This approach aims to maximize
               the benefits.
-            </h4>
+            </h6>
             <p>
               <FaUser />
               Sherley <br />
@@ -143,22 +143,6 @@ function Cards() {
         </div>
         <div className="thirdsec">
           <h2>Latest Blogs</h2>
-          <div className="post1">
-            <p>
-              Making wearable medical devices more patient-friendly with
-              Professor Esther - Villegas from Acurable.
-              <br />Read More <FaArrowRight />
-            </p>
-          </div>
-          <br />
-          <div className="post1">
-            <p>
-              Making wearable medical devices more patient-friendly with
-              Professor Esther - Villegas from Acurable.
-              <br />Read More <FaArrowRight />
-            </p>
-          </div>
-          <br />
           <div className="post1">
             <p>
               Making wearable medical devices more patient-friendly with

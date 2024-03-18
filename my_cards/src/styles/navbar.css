@@ -1,54 +1,105 @@
 nav {
-    background-color: black;
-    padding: 10px 20px;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    display: flex;
-    padding-left: 360px;
-  }
-  
-  li {
-    display: inline;
-    margin-right: 40px;
-  }
-  
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: orangered;
-  }
+  background-color: black;
+  padding: 10px 20px;
+}
 
-  
-.btn {
-    background-color: orangered;
-    height: 35px;
-    width: 100px;
-    font-size: 0.96rem;
-    padding-top: 2px ;
-    border: none;
-    border-radius: 7%;
-    margin-left: 200px;
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  padding-left: 360px;
+}
+
+li {
+  display: inline;
+  margin-right: 40px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+}
+
+
+.btn1 {
+  background-color: orangered;
+  height: 35px;
+  width: 100px;
+  font-size: 0.96rem;
+  padding-top: 2px ;
+  border: none;
+  border-radius: 7%;
+  margin-left: 200px;
+}
+
+.bars {
+  display: none;
 }
 
 .blogclass {
-  color: white;
-  float: left;
-  font-size: 25px;
-  padding-left: 45px;
+color: white;
+float: left;
+font-size: 25px;
+padding-left: 45px;
 }
 
 .togglebtn {
-  color: white;
-  background-color: black;
-  border: none;
-  float: right;
-  padding-left: 150px;
+color: white;
+background-color: black;
+border: none;
+float: right;
+padding-left: 150px;
 }
+
+.bars{
+  color: white;
+background-color: black;
+border: none;
+float: right;
+padding: 10px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  nav ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav ul.show {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
+
+  .togglebtn {
+    cursor: pointer;
+    padding-left: 250px;
+  }
+
+  .bars {
+    display: block;
+  }
+
+  .btn1 {
+    display: flex;
+    margin: 10px;
+    margin-left: 50px;
+    padding-left: 25px;
+    padding-top: 5px;
+  }
+
+
+}
+

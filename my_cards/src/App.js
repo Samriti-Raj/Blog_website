@@ -1,11 +1,12 @@
-
-import Navbar1 from './components/Navbar1.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Cards from './components/Cards/Cards.js'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Services from './components/Services.js';
 import About from './components/About.js';
 import Blogs from './components/Blogs.js';
 import Contact from './components/Contact.js';
+import './styles/cards.css'
+
 
 function App() {
   return (

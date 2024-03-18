@@ -43,6 +43,7 @@
     padding-left: 20px;
     padding-right: 20px;
     font-size: 20px;
+    font-weight: 500;
 }
 
 .about-sec2 {
@@ -98,6 +99,8 @@
 .review-sec h4 {
     padding-left: 20px;
     padding-right: 20px;
+    font-size: medium;
+    font-weight: 600;
 }
 .cls-1 {
     background-image: url('../assets/p1.jpg');
@@ -114,4 +117,58 @@
     background-image: url('../assets/p3.jpg');
     background-size: cover;
     background-position: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .about-sec h1 {
+        padding-left: 150px;
+        padding-top: 140px;
+    }
+
+    .about-sec2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 300px;
+    }
+
+    .about-sec3 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-sec3 h3 {
+        padding-top: 30px;
+        font-size: 30px;
+    }
+
+    .about-sec3 h2 {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .about-sec3 p {
+        padding-top: 10px;
+        font-size: 14.5px;
+
+    }
+
+    .reviews {
+        padding-left: 10px;
+        display: block;
+        padding-top: 2px;
+    }
+
+    .review-sec {
+       
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .review {
+        width: 40%;
+    }
+
 }
